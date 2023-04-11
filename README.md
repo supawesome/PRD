@@ -16,7 +16,9 @@ The formula for calculating the probability of an effect occurring on the N-th t
 The notebook uses the functions provided in `prd.py` to generate the samples and sequences used in the analysis.
 
 ### Table with calculated $C$ constants
-Where `P` is a theoretical probability, `C` is calculated constant for this `P`, `Experimental P` is experimantal probability obtained from `100000` simulations of PRD and `Percent change of P` is a percent change of probability after simulations.
+For further information on the table containing calculated C constants, please refer to the `PRD-Analysis.ipynb` file.  
+ The table presents the calculated constant $C$ for a given theoretical probability $P$, as well as the corresponding experimental probability obtained from `100,000` simulations of PRD. Additionally, the table provides the percent change in probability resulting from the simulations."
+
 | P    | C        | Experimental P | Percent change of P |
 |------|----------|----------------|---------------------|
 | 0.01 | 0.000156 | 0.010002       | 0.018033 %          |
